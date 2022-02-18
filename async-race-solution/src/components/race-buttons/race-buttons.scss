@@ -1,0 +1,21 @@
+.race {
+  margin-bottom: 60px;
+}
+
+.race__button,
+.reset__button {
+  background: rgb(159, 230, 112);
+  font-weight: 800;
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 70px;
+  cursor: pointer;
+}
+
+.generate__button {
+  background: rgb(210, 236, 236);
+  font-weight: 800;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

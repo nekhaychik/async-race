@@ -1,0 +1,31 @@
+.winners-table {
+  &__header {
+    display: grid;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__winner {
+    display: grid;
+    width: 500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.sort-by-wins,
+.sort-by-time {
+  background: transparent;
+  border: 1px solid rgb(159, 230, 112);
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 3px;
+  cursor: pointer;
+  &:hover {
+    background: rgb(159, 230, 112);
+    color: black;
+  }
+}

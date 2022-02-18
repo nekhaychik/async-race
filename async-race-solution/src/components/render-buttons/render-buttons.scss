@@ -1,0 +1,10 @@
+.render {
+  margin-bottom: 40px;
+  &__button {
+    background: rgb(159, 230, 112);
+    font-weight: 800;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,17 @@
+.prev-page,
+.next-page,
+.next-page-win,
+.prev-page-win {
+  margin-top: 30px;
+  width: 100px;
+  height: 27px;
+  background: rgb(210, 236, 236);
+  font-weight: 800;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#winners-pagination {
+  display: none;
+}

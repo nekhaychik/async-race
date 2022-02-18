@@ -1,0 +1,27 @@
+.create-car__form,
+.update-car__form {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 160px;
+  height: 21px;
+  margin-right: 10px;
+}
+
+.color {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.create__button,
+.update__button {
+  height: 27px;
+  background: rgb(210, 236, 236);
+  font-weight: 800;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
